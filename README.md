@@ -35,7 +35,8 @@ Cyclistic is a bike-share company based in Chicago. The director of marketing be
    * Extracted the ```day_of_week``` from the ```started_at``` date. Values were from 0-6, 0 = Sunday until 6 = Saturday.
    * Calculated the total minutes from the ```ride_duration```.
    * Removed station information as I did not use them for analysis and it also helped with loading time.
-   * Exported a .csv file for visualization after getting summary statistics. 
+   * Exported a .csv file for visualization after getting summary statistics.    
+All SQL code can be located [here](/Cyclistic_UpdatedTable_Queries.sql).
 ## Analyze
 ### Summary Statistics
 1. Average Ride Durations
