@@ -18,7 +18,7 @@ For the purposes of this study, I will be using data made available by Motivate 
 ### Limitations
 Data-privacy issues prohibit the use of riders’ personally identifiable information.
 ### Data Documentation
-Read more at the [Data Documentation File](/Data-Documentation.md)
+Read more at the [Data Documentation File](/Data-Documentation)
 ## Process
 ### Applications
 I used Microsoft Excel to first explore the data and do some initial cleaning. For further analysis and manipulation, I used pgAdmin and PostgreSQL. This was also what I used to make a database. For the visualizations and dashboard, I used Power BI.
