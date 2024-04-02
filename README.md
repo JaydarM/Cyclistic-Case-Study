@@ -7,20 +7,20 @@ Cyclistic is a bike-share company based in Chicago. The director of marketing be
 1. Lily Moreno - The director of marketing. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program. These may include email, social media, and other channels.
 2. Cyclistic Executive Team - The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program.
 ### Business Task
-&emsp;Analyze the data to identify an appropriate strategy to influence casual riders to purchase annual memberships.
+Analyze the data to identify an appropriate strategy to influence casual riders to purchase annual memberships.
 ### Questions
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 ## Prepare
 ### Data Source
-&emsp;For the purposes of this study, I will be using data made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). I used data from the past [12 months](https://divvy-tripdata.s3.amazonaws.com/index.html), March 2023 to February 2024.
+For the purposes of this study, I will be using data made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). I used data from the past [12 months](https://divvy-tripdata.s3.amazonaws.com/index.html), March 2023 to February 2024.
 ### Limitations
-&emsp;Data-privacy issues prohibit the use of riders’ personally identifiable information.
+Data-privacy issues prohibit the use of riders’ personally identifiable information.
 ### Data Documentation
 ## Process
 ### Applications
-&emsp;I used Microsoft Excel to first explore the data and do some initial cleaning. For further analysis and manipulation, I used pgAdmin and PostgreSQL. This was also what I used to make a database. For the visualizations and dashboard, I used Power BI.
+I used Microsoft Excel to first explore the data and do some initial cleaning. For further analysis and manipulation, I used pgAdmin and PostgreSQL. This was also what I used to make a database. For the visualizations and dashboard, I used Power BI.
 ### Cleaning and Manipulation
 1. Excel
    * Removed latitude and longitude data as I did not see the need for them in this analysis.
@@ -56,7 +56,18 @@ All SQL code can be located [here](/Cyclistic_UpdatedTable_Queries.sql).
    GROUP BY day_of_week
    ORDER BY day_of_week;
    ```
-   &emsp;The average ride duration for all rides is 16:18.4830 minutes. Casual riders taking longer at 23:18.5706 minutes compared to annual members at 12:29.2717 minutes. Sundays and Saturdays have longer ride durations on average at 19:54.7013 minutes and 19:47.3757 minutes respectively.
+   <p align="center">
+     <img src="Cyclistic_Images/AvgDuration_All.PNG">
+   </p>
+   <p align="center">
+     <img src="Cyclistic_Images/AvgDuration_MemberType.PNG">
+   </p> 
+    The average ride duration for all rides is 16:18.4830 minutes. Casual riders taking longer at 23:18.5706 minutes compared to annual members at 12:29.2717 minutes.  
+   <p align="center">
+     <img src="Cyclistic_Images/AvgDuration_DayOfWeek.PNG">
+   </p>  
+    Sundays and Saturdays have longer ride durations on average at 19:54.7013 minutes and 19:47.3757 minutes respectively.
+  
 3. Number of Rides
    ```
    --Total Number of Rides--
@@ -74,6 +85,18 @@ All SQL code can be located [here](/Cyclistic_UpdatedTable_Queries.sql).
    FROM trip_data_updated
    GROUP BY member_casual;
    ```
+   <p align="center">
+     <img src="Cyclistic_Images/Count_All.PNG">
+   </p>
+   <p align="center">
+     <img src="Cyclistic_Images/Count_MemberType.PNG">
+   </p> 
+   Based on the data, there are more rides from annual members than casual riders.  
+   <p align="center">
+     <img src="Cyclistic_Images/Count_DayOfWeek.PNG">
+   </p>  
+   Ride numbers peak in the middle of the week on Thursday, with the lowest number of rides being on Sunday.
+   
 ### Visualizations
 ## Share
 ## Act
