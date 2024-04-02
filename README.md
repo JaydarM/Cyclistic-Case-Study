@@ -98,10 +98,32 @@ All SQL code can be located [here](/Cyclistic_UpdatedTable_Queries.sql).
    Ride numbers peak in the middle of the week on Thursday, with the lowest number of rides being on Sunday.
    
 ### Visualizations
+  <p align="center">
+    <img src="Cyclistic_Images/AvgDuration_Viz.PNG">
+  </p>
+  This visualization clearly shows that, on average, casual riders use bikes longer than annual members, with casual riders riding the most on weekends. It can be inferred that casual riders use bikes mainly for leisure.
+  <p align="center">
+    <img src="Cyclistic_Images/Count_Viz.PNG">
+  </p>
+  This visualization shows that annual members take more rides compared to casual riders. Most annual members ride a lot on weekdays, so it can be inferred that they use bikes to commute.
+  <p align="center">
+    <img src="Cyclistic_Images/Count_PerDay.PNG">
+  </p>
+  This visualization takes a closer look on how bikes are used throughout the day. From this, we can see that annual members ride bikes mainly around 8 AM and 5 PM. This adds to the idea that they use bikes mainly for commuting. On the other hand, casual riders tend to ride bikes around late afternoons until early evenings.
+  <p align="center">
+    <img src="Cyclistic_Images/Count_PerMonth.PNG">
+  </p>
+  This visualization can help us see how users ride bikes throughout the year. The trend is similar between both membership types where it shows peak usage around June, July, and August, and a downward trend around November, December, and January. This is most likely related to seasonal changes.
+  
 ## Share
+Cyclistic Bike-Share Analysis Dashboard
+
 ## Act
 ### Conclusions
-1. Despite annual members taking more rides, on average casual members use bikes for a longer period.
+1. Annual members take more rides, while, on average, casual members use bikes for a longer period.
 2. Annual Members use bikes to commute during weekdays, peaking at around 8AM and 5PM, while Casual Members use bikes for leisure mainly on the weekends during the afternoon.
 3. All types of members have similar use patterns throughout the year, with peak months in June, July, and August, and a decline in use in the winter season, in November, December, and January.
 ### Recommendations
+1. Create a seasonal sales promotion for annual memberships during months with high number of riders.
+2. Focus marketing on the weekends for higher visibility to casual riders and to encourage them to buy annual memberships.
+3. Create a weekend sales promotion for a trial period for casual riders to try out annual memberships.
