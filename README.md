@@ -18,6 +18,7 @@ For the purposes of this study, I will be using data made available by Motivate 
 ### Limitations
 Data-privacy issues prohibit the use of riders’ personally identifiable information.
 ### Data Documentation
+Read more at the [Data Documentation File](/Data-Documentation.md)
 ## Process
 ### Applications
 I used Microsoft Excel to first explore the data and do some initial cleaning. For further analysis and manipulation, I used pgAdmin and PostgreSQL. This was also what I used to make a database. For the visualizations and dashboard, I used Power BI.
@@ -117,6 +118,12 @@ All SQL code can be located [here](/Cyclistic_UpdatedTable_Queries.sql).
   
 ## Share
 Cyclistic Bike-Share Analysis Dashboard
+<p align="center">
+  <img src="Cyclistic_Images/CyclisticDashboard_1.PNG">
+</p>
+<p align="center">
+  <img src="Cyclistic_Images/CyclisticDashboard_2.PNG">
+</p>
 
 ## Act
 ### Conclusions
